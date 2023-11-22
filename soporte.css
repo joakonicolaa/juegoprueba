@@ -1,0 +1,95 @@
+*{
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(240, 234, 234);
+   
+}
+.cabeza{
+    display: flex;
+    background-color: rgb(5, 19, 95);
+    padding: 5px 10%;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+}
+
+.cabeza .logo {
+    cursor: pointer;
+}
+.cabeza .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+    border-radius: 20px;
+}
+.cabeza .logo img:hover {
+    transform: scale(1.2);
+}
+.cabeza .nav-links li{
+    padding: 0 20px;
+    display: inline-block; 
+    transform: scale(1.2);
+   
+    
+}
+body{
+    background-image: url(fondo\ fachero.avif);
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    
+}
+.cabeza .nav-links li{
+    padding: 0 35px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+.cabeza .nav-links a{
+    font-size: 25px;
+    color: black;
+    padding: 20px 30%;
+    text-decoration: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.cabeza .nav-links li:hover{
+    transform: scale(1.2);
+}
+.cabeza .nav-links a:hover{
+    color: blueviolet;
+}
+.cabeza .btn button{
+    color: black;
+    background-color: rgb(149, 30, 179);
+    border: none;
+    border-radius: 15px;
+    padding: 15px 20%;
+}
+.cabeza .btn button:hover{
+    transition: all 0.3s ease 0s;
+    transform: scale(1.2);
+}
+.contactos {
+ display: flex;
+ justify-content: center;
+margin: 0   ;
+
+
+}
+.contactos i {
+  font-size: 170px;
+   color: black;
+   margin: 100px;  
+}
+.chat1 {
+    text-align: center;
+}
+p {
+    color: black;
+    font-size: 30px;
+}
+.contactos :hover{
+    transition: all 0.3s ease 0s;
+    transform: scale(1.2);
+}

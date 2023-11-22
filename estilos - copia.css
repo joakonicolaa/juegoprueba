@@ -1,0 +1,105 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+
+*{
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(240, 234, 234);
+   
+}
+.cabeza{
+    display: flex;
+    background-color: rgb(5, 19, 95);
+    padding: 5px 10%;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+}
+
+.cabeza .logo {
+    cursor: pointer;
+}
+.cabeza .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+    border-radius: 20px;
+}
+.cabeza .logo img:hover {
+    transform: scale(1.2);
+}
+.cabeza .nav-links li{
+    padding: 0 20px;
+    display: inline-block; 
+    transform: scale(1.2);
+   
+    
+}
+body{
+    background-image: url(fondo\ fachero.avif);
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    
+}
+.cabeza .nav-links li{
+    padding: 0 35px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+.cabeza .nav-links a{
+    font-size: 25px;
+    color: black;
+    padding: 20px 30%;
+    text-decoration: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.cabeza .nav-links li:hover{
+    transform: scale(1.2);
+}
+.cabeza .nav-links a:hover{
+    color: blueviolet;
+}
+.cabeza .btn button{
+    color: black;
+    background-color: rgb(149, 30, 179);
+    border: none;
+    border-radius: 15px;
+    padding: 15px 20%;
+}
+.cabeza .btn button:hover{
+    transition: all 0.3s ease 0s;
+    transform: scale(1.2);
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 50px;
+    color: black;
+    text-shadow: 2px 5px ;
+}
+.quees{
+    text-align: left;
+    display: flex;
+    color: black;
+    padding: 20px;
+    margin: 15px 20px;
+    
+}
+p{
+    margin: 15px 30px;
+    color: black;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    
+}
+img:hover {
+    transition: all 0.5s;
+    transform: scale(1.2);
+    
+}
+.cabeza .modos {
+    text-align: left;
+}
